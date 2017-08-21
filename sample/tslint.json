@@ -1,5 +1,5 @@
 {
   "extends": [
-    "tslint-config-airbnb"
+    "@briisk/tslint-config"
   ]
 }

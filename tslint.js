@@ -54,15 +54,15 @@ module.exports = {
     'no-increment-decrement': true, // 13.6
     'triple-equals': [
       true,
-      "allow-null-check"
+      'allow-null-check'
     ], // 15.1
-    // 'no-boolean-literal-compare': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
-    // 'strict-boolean-expressions': true, // 15.3  disabled by https://github.com/Microsoft/vscode-tslint/issues/70
+    'no-boolean-literal-compare': true, // 15.3
+    'strict-boolean-expressions': true, // 15.3
     'brace-style': [
       true,
       '1tbs',
       {
-        "allowSingleLine": true
+        'allowSingleLine': true
       }
     ], // 16.2
     'comment-format': [
@@ -90,17 +90,13 @@ module.exports = {
       true,
       'never'
     ], // 18.9
-    'array-bracket-spacing': [
-      true,
-      'never'
-    ], // 18.10
     'object-curly-spacing': [
       true,
       'always'
     ], // 18.11
     'max-line-length': [
       true,
-      100
+      120
     ], // 18.12
     'trailing-comma': [
       true,
@@ -126,6 +122,17 @@ module.exports = {
       'check-format' // 22.2
     ],
     'no-var-self': true, // 22.5
-    'import-name': true // 22.6
+    'import-name': true, // 22.6
+    'multiline-ternary': ['error', 'always-multiline'], // 15.8
+    'array-bracket-spacing': [
+      'error',
+      'always',
+      {
+        'singleValue': false,
+        'objectsInArrays': false,
+        'arraysInArrays': false
+      }
+    ], // 18.10,
+    'computed-property-spacing': ["error", "never"] // 18.10
   }
 };

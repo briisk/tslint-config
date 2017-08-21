@@ -1,10 +1,9 @@
 {
-  "name": "tslint-config-airbnb",
-  "description": "A TSLint config for Airbnb JavaScript Style",
-  "version": "5.2.1",
-  "author": "progre",
+  "name": "@briisk/tslint-config",
+  "description": "A TSLint config for Briisk JavaScript Style",
+  "version": "0.0.1",
   "bugs": {
-    "url": "https://github.com/progre/tslint-config-airbnb/issues"
+    "url": "https://github.com/briisk/tslint-config/issues"
   },
   "dependencies": {
     "tslint-consistent-codestyle": "^1.4.0",
@@ -12,13 +11,13 @@
     "tslint-microsoft-contrib": "^5.0.0",
     "vrsource-tslint-rules": "^5.1.0"
   },
-  "homepage": "https://github.com/progre/tslint-config-airbnb/#readme",
+  "homepage": "https://github.com/briisk/tslint-config/#readme",
   "keywords": [
     "airbnb",
     "tslint",
     "typescript"
   ],
-  "license": "Apache-2.0",
+  "license": "ISC",
   "main": "tslint.js",
-  "repository": "github:progre/tslint-config-airbnb"
+  "repository": "github:briisk/tslint-config"
 }

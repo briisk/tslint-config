@@ -1,14 +1,14 @@
-# TSLint Config Airbnb
+# TSLint Config Briisk
 
-[![NPM version](https://img.shields.io/npm/v/tslint-config-airbnb.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
-[![Downloads](http://img.shields.io/npm/dm/tslint-config-airbnb.svg?style=flat)](https://npmjs.org/package/tslint-config-airbnb)
+[![NPM version](https://img.shields.io/npm/v/@briisk/tslint-config.svg?style=flat)](https://www.npmjs.com/package/@briisk/tslint-config)
+[![Downloads](http://img.shields.io/npm/dm/@briisk/tslint-config.svg?style=flat)](https://npmjs.org/package/@briisk/tslint-config)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ## Installation
 
 ```sh
-npm install tslint-config-airbnb --save
+npm install @briisk/tslint-config --save
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "tslint-config-airbnb"
+  "extends": "@briisk/tslint-config"
 }
 ```
 
@@ -31,4 +31,4 @@ In `tslint.json`:
 
 ## License
 
-Apache 2.0
+ISC
