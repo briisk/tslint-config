@@ -133,6 +133,77 @@ module.exports = {
         'arraysInArrays': false
       }
     ], // 18.10,
-    'computed-property-spacing': ["error", "never"] // 18.10
+    'computed-property-spacing': ['error', 'never'], // 18.10
+    // angular-cli rules
+    'arrow-return-shorthand': true,
+    'callable-types': true,
+    'class-name': true,
+    'curly': true,
+    'forin': true,
+    'import-blacklist': [
+      true,
+      'rxjs'
+    ],
+    'import-spacing': true,
+    'interface-over-type-literal': true,
+    'label-position': true,
+    'member-access': false,
+    'member-ordering': [
+      true,
+      {
+        'order': [
+          'static-field',
+          'instance-field',
+          'static-method',
+          'instance-method'
+        ]
+      }
+    ],
+    'no-arg': true,
+    'no-bitwise': true,
+    'no-console': [
+      true,
+      'debug',
+      'info',
+      'time',
+      'timeEnd',
+      'trace'
+    ],
+    'no-debugger': true,
+    'no-duplicate-super': true,
+    'no-empty': false,
+    'no-empty-interface': true,
+    'no-inferrable-types': [
+      true,
+      'ignore-params'
+    ],
+    'no-misused-new': true,
+    'no-non-null-assertion': true,
+    'no-shadowed-variable': true,
+    'no-string-literal': false,
+    'no-string-throw': true,
+    'no-switch-case-fall-through': true,
+    'no-trailing-whitespace': true,
+    'no-unnecessary-initializer': true,
+    'no-unused-expression': true,
+    'no-use-before-declare': true,
+    'object-literal-sort-keys': false,
+    'one-line': [
+      true,
+      'check-open-brace',
+      'check-catch',
+      'check-else',
+      'check-whitespace'
+    ],
+    'typedef-whitespace': [
+      true,
+      {
+        'call-signature': 'nospace',
+        'index-signature': 'nospace',
+        'parameter': 'nospace',
+        'property-declaration': 'nospace',
+        'variable-declaration': 'nospace'
+      }
+    ],
   }
 };

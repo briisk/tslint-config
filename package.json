@@ -5,6 +5,7 @@
   "bugs": {
     "url": "https://github.com/briisk/tslint-config/issues"
   },
+  "author": "Daniel Koza <dakolech@gmail.com> (https://github.com/dakolech)",
   "dependencies": {
     "tslint-consistent-codestyle": "^1.4.0",
     "tslint-eslint-rules": "^4.1.1",
