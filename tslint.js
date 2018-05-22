@@ -140,10 +140,6 @@ module.exports = {
     'class-name': true,
     'curly': true,
     'forin': true,
-    'import-blacklist': [
-      true,
-      'rxjs'
-    ],
     'import-spacing': true,
     'interface-over-type-literal': true,
     'label-position': true,
