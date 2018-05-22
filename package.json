@@ -1,7 +1,7 @@
 {
   "name": "@briisk/tslint-config",
   "description": "A TSLint config for Briisk JavaScript Style",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "bugs": {
     "url": "https://github.com/briisk/tslint-config/issues"
   },
